@@ -1,0 +1,16 @@
+<NotepadPlus>
+    <Project name="MyDB">
+        <File name="index.php" />
+        <Folder name="MyDB">
+            <Folder name="CONTROLE" />
+            <Folder name="CREATE">
+                <File name="MyDB\CREATE\AbstractCreateTable.php" />
+                <File name="MyDB\CREATE\MySQLCreateTable.php" />
+            </Folder>
+            <Folder name="DEFINITION" />
+            <File name="MyDB\MyDB.php" />
+        </Folder>
+        <File name="index.php" />
+        <File name="session.npp" />
+    </Project>
+</NotepadPlus>
