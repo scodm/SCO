@@ -40,12 +40,14 @@ class MySQLCreateTable extends AbstractCreateTable{
 		}
 		return $cols;
 	}
-	
+
 	public function exec(){
 		if($this->existTable($this->name)){
 			$descs =  $this->descTable($this->name);
 			$cols =  $this->colNames();
-			$this->alterTable(array)
+			$this->alterTable(array(
+				
+			));
 			return;
 		}
 		

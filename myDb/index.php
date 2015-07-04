@@ -1,7 +1,8 @@
 <?php
 
 require_once "MyDB/MyDB.php";	
-
+echo "none";
+echo "none avec commit";
 // die();	
 
 MyDB::createTable("user")->integer("NIdUser", array("pk"=> true, "ai"=> true))
@@ -115,4 +116,6 @@ MyDB::createTable("notification")->integer("NIdNotification", array("pk"=> true,
 						 ->integer("NIdUser", array("pk"=>true, "tableName"=>"user"))
 						 ->varchar("StexteNotification")
 						 ->exec();
+						 
+						 
 ?>
